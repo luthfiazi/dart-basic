@@ -1,5 +1,5 @@
 void main() {
-  print('Hello World!');
+  // print('Hello World!');
 
   var name = 'Voyager I';
   var year = 1977;
@@ -9,9 +9,10 @@ void main() {
     'tags': ['saturn'],
     'url': '//path/to/saturn.jpg'
   };
-  print(name);
+  print('name: $name');
   print(year);
   print(antennaDiameter);
-  print(flybyObjects);
+  print(flybyObjects[2]);
+  print('planet pertama: ${flybyObjects[0]}');
   print(image);
 }
